@@ -1,4 +1,4 @@
-var app = angular.module('test.controllers', []);
+var app = angular.module('starter.controllers', []);
 
 var AppCtrl =  function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
@@ -33,18 +33,11 @@ var AppCtrl =  function($scope, $ionicModal, $timeout) {
         };
     };
 
-var addCtrl = function($scope,$firebase){
-    var ref = new Firebase("https://luminous-fire-844.firebaseio.com/");
-    $scope.cards = $firebase(ref).$asArray();
+var addCtrl = function($scope,cardsBase){
     $scope.card = {};
     $scope.addcard = function (){
-        $scope.cards.$add({
-            bank: $scope.card.bank,
-            name: $scope.card.name,
-            annual_fee: $scope.card.annual_fee,
-//            reward:  $scope.card.reward
-        });
-         $scope.card = {};
+        cardsBase.add_card($scope.card.bank,$scope.card.name,$scope.card.annual_fee);
+        $scope.card = {};
         };
     };
 
@@ -65,7 +58,7 @@ var PlaylistCtrl = function($scope, $stateParams) {
 
 
 AppCtrl.$inject = ['$scope', '$ionicModal', '$timeout'];
-addCtrl.$inject = ['$scope','$firebase'];
+addCtrl.$inject = ['$scope','cardsBase'];
 PlaylistsCtrl.$inject = ['$scope'];
 PlaylistCtrl.$inject = ['$scope'];
 
