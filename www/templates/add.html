@@ -1,0 +1,60 @@
+<ion-view view-title="Add New Credit Card">
+  <ion-content>
+    <ul class="list">
+        
+        <div class="item item-divider">
+             Description
+        </div>
+        
+        <li class="item item-input">
+            <span class="input-label positive">Bank</span>
+            <input type="text" ng-model="card.bank">
+        </li>
+        <li class="item item-input ">
+            <span class="input-label positive">Name</span>
+            <input type="text" ng-model="card.name">
+        </li>
+        <li class="item item-input i">
+            <span class="input-label positive">Annual Fee</span>
+            <input type="number" ng-model="card.annual_fee">
+        </li>
+<!--        
+        <li class = "item item-toggle">
+            Foreign Transaction Fee
+        <label class="toggle">
+            <input type="checkbox">
+            <div class="track">
+            <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+------------------------------------------------       
+         <div class="item item-divider">
+             Reward Program
+        </div>
+        
+        <li class="item item-input">
+            <span class="input-label positive">Airline</span>
+            <input type="number" ng-model="card.reward.airline">
+        </li>
+        <li class="item item-input">
+            <span class="input-label positive">Hotel</span>
+            <input type="number" ng-model="card.reward.hotel">
+        </li>
+        <li class="item item-input">
+            <span class="input-label positive">Grocery</span>
+            <input type="number" ng-model="card.reward.grocery">
+        </li>
+-->       
+        
+        <label class="item">
+            <button class="button button-block button-positive" ng-click="addcard()" >
+                Submit
+            </button>
+        </label>
+        
+        
+        
+    </ul>
+  </ion-content>
+</ion-view>

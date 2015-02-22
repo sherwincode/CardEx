@@ -77,10 +77,10 @@ D:\OneDrive\Apps\CardEx\platforms\android\assets\www\plugins\com.ionic.keyboard\
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\plugins\com.ionic.keyboard\www\keyboard.js \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
+D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\add.html \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\browse.html \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\login.html \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\menu.html \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\playlist.html \
 D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\playlists.html \
-D:\OneDrive\Apps\CardEx\platforms\android\assets\www\templates\search.html \
 D:\OneDrive\Apps\CardEx\platforms\android\ant-build\AndroidManifest.xml \
